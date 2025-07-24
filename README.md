@@ -1,4 +1,6 @@
 # FLEA
+## 概要
+フリマアプリ「coachtechフリマ」の開発
 ## 環境構築
 ### Dockerビルド
 1. docker-compose up -d --build
