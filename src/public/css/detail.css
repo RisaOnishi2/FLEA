@@ -1,0 +1,140 @@
+.item-detail-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 商品画像 */
+.item-image {
+    flex: 1 1 40%;
+    text-align: center;
+}
+
+.item-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* 商品詳細 */
+.item-info {
+    flex: 1 1 55%;
+}
+
+/* 商品名 */
+.item-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 価格 */
+.item-price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* いいね機能 */
+.like-count {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+/* コメント数 */
+.comment-count {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+    margin-left: 75px
+}
+
+/* 購入ボタン */
+.purchase-button {
+    display: inline-block;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.purchase-button:hover {
+    background-color: #d32f2f;
+}
+
+/* 商品説明、情報、コメントなど */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item-category {
+    margin-right: 30px;
+}
+
+.item-condition {
+    margin-left: 30px;
+}
+
+/* コメント欄 */
+.comment p {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comment .author {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* フォーム */
+.comment-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+.comment-form button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #d32f2f;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-image-preview {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
