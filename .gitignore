@@ -31,3 +31,7 @@ auth.json
 
 docker/mysql/data/
 
+/src/storage/
+/src/bootstrap/cache/
+/src/app/Actions/Fortify/
+/src/app/Http/Requests/
