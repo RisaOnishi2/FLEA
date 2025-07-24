@@ -15,7 +15,7 @@ PHP 7.4.9,
 Laravel Framework 8.83.29,
 MySQL 8.0.26
 ## ER図
-
+<img width="792" height="929" alt="ER FLEA" src="https://github.com/user-attachments/assets/2ad1c537-cf63-45fb-a332-d4e0914a820e" />
 ## URL
 開発環境：http://localhost/ ,
 pypMyAdmin：http://localhost:8080/
